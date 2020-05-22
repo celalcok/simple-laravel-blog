@@ -22,14 +22,13 @@ class AuthController extends Controller
         ]);
         if($auth){
             toastr()->success('Tekrardan hoşgeldiniz <br>',Auth::user()->name);
-            return redirect(route('admin.dashboard'));
+            return redirect()->route('admin.dashboard');
         }
-        return redirect(route('admin.login'))->withErrors('Email adresi veya şifre hatalı');
+        return redirect()->route('admin.login')->withErrors('Email adresi veya şifre hatalı');
     }
     public function logout(){
       Auth::logout();
-
-        return redirect(route('admin.login'));
+        return redirect()->route('admin.login');
     }
 
 }

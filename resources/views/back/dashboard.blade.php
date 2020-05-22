@@ -1,5 +1,5 @@
 @extends('back.layouts.master')
-@section('title','Panel / '.$config->title)
+@section('title','Panel')
 @section('content')
               <!-- Content Row -->
               <div class="row">
