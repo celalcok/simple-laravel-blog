@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Admin Giriş | Blog Sitesi</title>
+  <title>Admin Giriş | {{$config->title}}</title>
 
   <!-- Custom fonts for this template-->
   <link href="{{asset('back/')}}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
