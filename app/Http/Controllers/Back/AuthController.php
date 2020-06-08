@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Admin;
 use App\Models\Config;
 use Illuminate\Support\Facades\Auth;
+
 class AuthController extends Controller
 {
     public function login(){
